@@ -49,7 +49,7 @@ export default class Calendar extends React.PureComponent<PropsType, StateType> 
       this.state = {
         ...this.state,
         ...this.selectDate(defaultValue[1], true, { startDate: defaultValue[0] }, props),
-        ...this.shortcutSelect(defaultValue[0], defaultValue[1], props);
+        ...this.shortcutSelect(defaultValue[0], defaultValue[1], props),
       };
     }
   }
